@@ -34,11 +34,11 @@ console.log(carts);
 
     return (
         <div className='workplace_conatiner'>
-            {/* <div>
+            <div>
                 <h3>Information</h3>
                 <p><strong>Name:</strong> Rahman</p>
                 <p><strong>Skills:</strong>Tailwind, JavaScript, React</p>
-            </div> */}
+            </div>
             {/* <div>
                 <h3>Add a Break</h3>
                 <div className='break-btn'>
