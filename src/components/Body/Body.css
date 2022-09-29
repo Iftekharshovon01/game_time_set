@@ -1,4 +1,4 @@
-/* .body-conatiner{
+.body-conatiner{
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
@@ -21,4 +21,4 @@
         display: block !important;
         
     }
-} */
+}
