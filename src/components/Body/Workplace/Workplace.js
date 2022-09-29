@@ -48,7 +48,7 @@ console.log(carts);
                     <button onClick={(event) => AddBreak(event.target.innerText)}><strong>40</strong></button>
                 </div>
             </div>
-            {/* <div className='game-details'>
+            <div className='game-details'>
                 <h3>Game Details</h3>
                 <div className='game-time'>
                     <h3>Game Time</h3>
@@ -61,7 +61,7 @@ console.log(carts);
                 <div className='complete-btn'>
                     <button onClick={"Done"}>Game Completed</button>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 };
