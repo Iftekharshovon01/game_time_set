@@ -12,10 +12,10 @@ console.log(carts);
         totalTime = totalTime + cart.time;
     });
 
-    // const AddBreak = (event) => {
-    //     setBreaktimes(event);
-    //     localStorage.setItem('break-time', event);
-    // };
+    const AddBreak = (event) => {
+        setBreaktimes(event);
+        localStorage.setItem('break-time', event);
+    };
 
     useEffect(() => {
         const getLocalStore = localStorage.getItem('break-time');
@@ -39,7 +39,7 @@ console.log(carts);
                 <p><strong>Name:</strong> Rahman</p>
                 <p><strong>Skills:</strong>Tailwind, JavaScript, React</p>
             </div>
-            {/* <div>
+            <div>
                 <h3>Add a Break</h3>
                 <div className='break-btn'>
                     <button onClick={(event) => AddBreak(event.target.innerText)}><strong>10</strong></button>
@@ -47,7 +47,7 @@ console.log(carts);
                     <button onClick={(event) => AddBreak(event.target.innerText)}><strong>30</strong></button>
                     <button onClick={(event) => AddBreak(event.target.innerText)}><strong>40</strong></button>
                 </div>
-            </div> */}
+            </div>
             {/* <div className='game-details'>
                 <h3>Game Details</h3>
                 <div className='game-time'>
