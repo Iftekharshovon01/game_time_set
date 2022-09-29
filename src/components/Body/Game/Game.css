@@ -1,0 +1,9 @@
+.game-card{
+    margin: 20px;
+    padding: 15px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.game-card img{
+    width: 100%;
+}
