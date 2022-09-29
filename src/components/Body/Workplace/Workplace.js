@@ -58,9 +58,9 @@ console.log(carts);
                     <h3>Break Time</h3>
                     <p>{breaktimes} Secounds</p>
                 </div>
-                <div className='complete-btn'>
+                {/* <div className='complete-btn'>
                     <button onClick={"Done"}>Game Completed</button>
-                </div>
+                </div> */}
             </div>
         </div>
     );
